@@ -4,13 +4,58 @@ color: #434455;
 background-color: #fff;
 }
 
+/* reset */
+
 ul, ol{
-list-style-type: none
+list-style-type: none;
+margin: 0;
+padding: 0;
 }
+
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
 
 a{
 text-decoration: none;
 }
+/* common */
+
+.container{
+    max-width:1158;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* hedder */
+
+.page-header{
+    border-bottom:1px solid #e7e9fc;
+}
+
+.hedder-container{
+    display: flex;
+    align-items: center;
+}
+
+.headder-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts-list{
+    display: flex;
+    align-items: center;
+}
+
 .logo{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -24,11 +69,18 @@ color: #4d5ae5;
 color: #2e2f42
 }
 
+.hedder-logo{
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
 .footer-logo .logo-part{
 color: #f4f4fd;
 }
 
 .nav-link{
+display: block;
+padding: 24px 0;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -37,10 +89,19 @@ color: #2e2f42;
 }
 
 .contacts{
+margin-left: auto;
 font-style: normal;
 }
 
+.contacts-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .contacts-link{
+padding: 24px 0;
+display: block;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -53,6 +114,8 @@ color: #434455;
 .contacts-link:focus{
 color: #404bbf;
 }
+
+/* main */
 
 .main-title{
 font-weight: 700;
@@ -73,12 +136,31 @@ color: #ffffff;
 background-color: #4d5ae5;
 }
 
+
+
 .main-section{
+padding: 188px 0;
+text-align: center;
 background-color: #2e2f42;
+
 }
+
 .main-title-but:hover,
 .main-title-but:focus{
 background-color: #404bbf;
+}
+
+/* first-section */
+
+.first-section{
+padding: 100px 0 80px 0;
+background-color: #f4f4fd;
+}
+
+.first-section-list{
+display: flex;
+align-items: center;   
+gap: 24px;   
 }
 
 .section-title{
@@ -95,7 +177,6 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42; 
 }
 
@@ -104,8 +185,15 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
 color: #434455;
+}
+
+/* third-section */
+
+.third-section-list{
+display: flex;
+align-items: center;  
+gap: 24px;     
 }
 
 .third-section{
@@ -116,6 +204,7 @@ background-color: #f4f4fd;
 background-color: #ffffff;
 }
  
+/* footer */
 
 .page-footer{
 background-color: #2e2f42;

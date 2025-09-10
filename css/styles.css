@@ -75,7 +75,6 @@ color: #2e2f42
 }
 
 .footer-logo .logo-part{
-display: inline-block;
 margin-bottom: 16px;    
 color: #f4f4fd;
 }
@@ -160,8 +159,12 @@ background-color: #404bbf;
 
 /* first-section */
 
+.visually-hidden{
+
+}
+
 .first-section{ 
-padding: 120px 0 80px 0;
+padding: 120px 0;
 background-color: #f4f4fd;
 }
 
@@ -171,7 +174,7 @@ align-items: center;
 gap: 24px;   
 }
 
-.section-title{
+.section-title{   
 margin-bottom: 8px;    
 font-weight: 700;
 font-size: 36px;
@@ -214,10 +217,12 @@ gap: 24px;
 }
 
 .third-section{
+padding: 120px 0;
 background-color: #f4f4fd;
 }
 
 .third-section-item{
+border-radius: 0px 0px 4px 4px;    
 background-color: #ffffff;
 }
  
@@ -234,4 +239,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+}
+
+.logo-part{
+display: inline-block;
+margin-bottom: 16px;
 }

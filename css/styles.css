@@ -23,7 +23,7 @@ text-decoration: none;
 /* common */
 
 .container{
-    width:1158;
+    width:1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -75,6 +75,8 @@ color: #2e2f42
 }
 
 .footer-logo .logo-part{
+display: inline-block;
+margin-bottom: 16px;    
 color: #f4f4fd;
 }
 
@@ -118,6 +120,7 @@ color: #404bbf;
 /* main */
 
 .main-title{
+ max-width: 496px;   
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -128,8 +131,13 @@ background-color: #2e2f42;
 }
 
 .main-title-but{
+display: block;
+min-width: 169px;
+height: 56px;    
 font-weight: 500;
 line-height: 1.5;
+border: none;
+border-radius: 4px;
 letter-spacing: 0.04em;
 cursor: pointer;
 color: #ffffff;
@@ -152,8 +160,8 @@ background-color: #404bbf;
 
 /* first-section */
 
-.first-section{
-padding: 100px 0 80px 0;
+.first-section{ 
+padding: 120px 0 80px 0;
 background-color: #f4f4fd;
 }
 
@@ -164,6 +172,7 @@ gap: 24px;
 }
 
 .section-title{
+margin-bottom: 8px;    
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -188,7 +197,15 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.first-section-item{
+width: calc((100% - 72px) / 4);
+}
+
 /* third-section */
+
+.picture{
+display:block
+}
 
 .third-section-list{
 display: flex;
@@ -208,6 +225,7 @@ background-color: #ffffff;
 
 .page-footer{
 background-color: #2e2f42;
+padding: 100px 0
 }
 
 .footer-text{

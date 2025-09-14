@@ -166,21 +166,6 @@ background-color: #404bbf;
 
 /* first-section */
 
-/* ...existing code... */
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    border: 0;
-    white-space: nowrap;
-}
-
-/* ...existing code... */
-
 .first-section{ 
 padding: 120px 0;
 background-color: #f4f4fd;
@@ -259,7 +244,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.fsecond-section-item{
+.second-section-item{
 width: calc((100% - 72px) / 4);
 }
 /* third-section */
@@ -283,7 +268,7 @@ background-color: #f4f4fd;
 }
 
 .third-section-item{
-width: calc((100% - 72px) / 4);
+width: calc((100% - 72px) / 6);
 border-radius: 0px 0px 4px 4px;    
 background-color: #ffffff;
 }

@@ -257,6 +257,7 @@ display: block;
 }
 
 .third-section-list{
+flex-wrap: wrap;
 display: flex;
 align-items: center;  
 gap: 24px;     
@@ -268,7 +269,7 @@ background-color: #f4f4fd;
 }
 
 .third-section-item{
-width: calc((100% - 72px) / 6);
+width: calc((100% - 48px) / 3);
 border-radius: 0px 0px 4px 4px;    
 background-color: #ffffff;
 }

@@ -166,6 +166,11 @@ background-color: #404bbf;
 
 /* first-section */
 
+.visually-hidden{
+position: absolute;
+width: 1px;         
+}
+
 .first-section{ 
 padding: 120px 0;
 background-color: #f4f4fd;
@@ -188,6 +193,7 @@ text-transform: capitalize;
 color: #2e2f42;
 }
 .paragraph-title{
+margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;

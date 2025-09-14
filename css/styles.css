@@ -261,7 +261,7 @@ gap: 24px;
 row-gap: 48px;
 }
 
-.first-section-list .first-section-item:last-child {
+.second-section-list .second-section-item:last-child {
     margin-right: 0;
 }
 

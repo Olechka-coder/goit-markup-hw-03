@@ -235,7 +235,6 @@ margin-bottom: 72px;
 display: flex;
 align-items: center; 
 gap: 24px;
-row-gap: 48px
 }
 
 .second-paragraf{
@@ -266,7 +265,6 @@ flex-wrap: wrap;
 display: flex;
 align-items: center;  
 gap: 24px;  
-row-gap: 48px;
 }
 
 .second-section-item:last-child {
